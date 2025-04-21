@@ -119,10 +119,6 @@ button {
   }
 }
 
-button:active {
-  background-color: hsl(217, 19%, 35%);
-}
-
 .share {
   display: none;
   padding: 1rem 2.5rem;
