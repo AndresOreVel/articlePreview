@@ -86,6 +86,8 @@ button{
     border: none;
     background-color: variables.$lightGrayishBlue;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.2s ease;
 
     @media (hover: hover) and (pointer: fine){
         &:hover{
@@ -104,9 +106,9 @@ button{
     }
 }
 
-// button:active{
-//     background-color: variables.$veryDarkGrayishBlue;
-// }
+button:active{
+    background-color: variables.$veryDarkGrayishBlue;
+}
 
 .share{
     display: none;
