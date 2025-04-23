@@ -139,6 +139,9 @@ button:active {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.share a {
+  -webkit-tap-highlight-color: transparent;
+}
 @media (max-width: 42rem) {
   .share {
     bottom: 0;
