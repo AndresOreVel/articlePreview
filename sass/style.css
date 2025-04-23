@@ -142,6 +142,9 @@ button:active {
 .share a {
   -webkit-tap-highlight-color: transparent;
 }
+.share a:active img {
+  transform: scale(0.95);
+}
 @media (max-width: 42rem) {
   .share {
     bottom: 0;

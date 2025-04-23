@@ -129,6 +129,10 @@ button:active{
         -webkit-tap-highlight-color: transparent;
     }
 
+    a:active img{
+        transform: scale(0.95);
+    }
+
     @include mixins.breakpoint-down (mobile) {
         bottom: 0;
         right: 0;
